@@ -1,3 +1,6 @@
+#receives string and key for shift
+#outputs encoded string
+
 def caesar_cipher(string, key)
   product = ""
   string.each_char do |char|
